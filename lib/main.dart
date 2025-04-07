@@ -209,8 +209,12 @@ class HomeScreen extends StatelessWidget {
                 context,
                 MaterialPageRoute(builder: (context) => MapScreen()),
               );
-            }, 
-            child: Text('Criar nova lista de compras')),
+            },
+            child: Text('Abrir Mapa')),
+            SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () {},
+              child: Text('Criar nova lista de compras')),
           ],
         ),
       ),
